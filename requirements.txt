@@ -1,6 +1,6 @@
-fastapi
-uvicorn
-pandas
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pandas<2.0.0
 streamlit
 requests
 openoa @ git+https://github.com/NatLabRockies/OpenOA.git
