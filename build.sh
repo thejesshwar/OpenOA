@@ -2,8 +2,8 @@
 # Exit on error
 set -o errexit
 
-# 1. Upgrade pip and install setuptools (fixes pkg_resources error)
+# Upgrade build tools to handle modern library packaging
 pip install --upgrade pip setuptools wheel
 
-# 2. Install the requirements
+# Install dependencies
 pip install -r requirements.txt
