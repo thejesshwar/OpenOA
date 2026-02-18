@@ -2,8 +2,8 @@
 # Exit on error
 set -o errexit
 
-# 1. Install the missing tool manually
-pip install "setuptools<70.0.0" wheel
+# 1. Upgrade pip and install setuptools (fixes pkg_resources error)
+pip install --upgrade pip setuptools wheel
 
-# 2. Now install the rest of the libraries
+# 2. Install the requirements
 pip install -r requirements.txt
