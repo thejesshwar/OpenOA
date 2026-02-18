@@ -5,7 +5,7 @@ import json
 # Configuration
 # When running locally, we point to localhost. 
 # When deployed, we will update this URL.
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://openoa-backend-nhaz.onrender.com"
 
 st.set_page_config(page_title="OpenOA Dashboard", layout="wide")
 
